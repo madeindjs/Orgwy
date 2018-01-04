@@ -1,0 +1,34 @@
+{
+  "name": "orgwy",
+  "description": "Another Notes and to-do list outliner with a fast and effective plain-text system.",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madeindjs/orgwy.git"
+  },
+  "keywords": [
+    "orgmod",
+    "task",
+    "todo",
+    "plain-text"
+  ],
+  "author": "Rousseau Alexandre",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madeindjs/orgwy/issues"
+  },
+  "homepage": "https://github.com/madeindjs/orgwy#readme",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  }
+}
