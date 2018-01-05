@@ -3,3 +3,9 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  a(class='btn btn-primary' href='/') New task
+
+  div(id="app") {{message}}
+  div(id="app-2")
+    span(v-bind:title="message") Hover your mouse over me for a few seconds to see my dynamically bound title!
